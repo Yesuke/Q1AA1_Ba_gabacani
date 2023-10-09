@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+}
+#navbar{
+    background-color:rgb(244,0 , 0);
+    border: 1px solid (244, 247, 224);
+    color: black;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+#links{
+    display: inline-block;
+    Position:absolute;
+    Top: -0.2vh;
+    right: 0vh;
+    border:2px;
+    border-color: black;
+    
+}
+#links a{
+    padding: 2px 7px 2px 7px;
+    text-decoration:none;
+    font-family:fantasy;
+    font-size:larger;
+    border: 2px solid goldenrod;
+    background-color:cornsilk;
+    opacity:1;
+    transition:0.4s;
+    font-weight:500;
+}
+.GAB{
+    color: goldenrod;
+}
+.roids{
+    color: goldenrod;
+}
+
+#logo{
+    display: inline-block;
+    border-radius:10px ;
+    Position:absolute;
+    Top: -0.2vh;
+    left: 0vh;
+    
+}
+
+#header{
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    color: rgb(141, 3, 3);
+    font-size: x-large;
+    Position:absolute;
+    Top: 37vh;
+    left: 75.9vh;
+    
+
+}
+#banner{
+    width: 100%;
+  height: 100%;
+}
+
+#bannerlink{
+    padding:5px;
+    display:inline;
+    
+}
+#bannerlink a{
+    padding: 2px 7px 2px 7px;
+    text-decoration:none;
+    font-family:'Courier New', Courier, monospace;
+    font-size:larger;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    opacity:0.7;
+    transition:0.4s;
+    Position:absolute;
+    Top: 45vh;
+    left: 20.5vh;
+
+}
+#copyright{
+    color:goldenrod;
+    font-size: medium;
+    text-align: right;
+}
+
+#gthb{
+    display: inline-block;
+    border-radius:10px ;
+    Position:absolute;
+    Top: 100vh;
+    left: 0vh;
+}
+#buzzwole{
+    display: inline-block;
+    border-radius:10px ;
+    Position:absolute;
+    Top: 100vh;
+    left: 6.5vh;
+}
+#footer{
+    background-color:rgb(244,0 , 0);
+    border: 1px solid (244, 247, 224);
+    color: black;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:-2%; ;
+    margin-bottom: -300%;
+}
+#barry{
+    display: inline-block;
+    border-radius:10px ;
+    Position:absolute;
+    Top: 100vh;
+    left: 13.2vh;
+}
+.galleryword{
+    color: goldenrod;
+    font-size:x-large;
+}
+#gallery{
+    background-color: red;
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
