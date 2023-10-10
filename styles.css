@@ -132,12 +132,15 @@
     justify-content:center;
     flex-wrap:wrap;
     
+    
+    
 
 }
 #container img{
-    height: 385px;
+    height: 382px;
     width: 480px;
 }
+
 
 
 
