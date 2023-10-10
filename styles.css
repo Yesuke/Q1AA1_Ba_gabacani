@@ -129,11 +129,14 @@
 #container{
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+    
 
 }
 #container img{
-    height: 200px;
-    width: 300px;
+    height: 385px;
+    width: 480px;
 }
 
 
