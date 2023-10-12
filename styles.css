@@ -39,7 +39,7 @@ padding: .5 vw;
 .banner{
     padding:10vh;
     background-image: url(Images/tren2.jpg);
-    width: 200vh; 
+    max-width: 100vw; 
     height: 35vw;
     background-position: center;
     background-size: cover;
@@ -118,7 +118,7 @@ padding: .5 vw;
 }
 .gallerybanner{
     background-image: url(Images/wide.jpg);
-    width: 205vh; 
+    max-width: 100vw; 
     height: 45vw;
     background-position: center;
     background-size: cover;
