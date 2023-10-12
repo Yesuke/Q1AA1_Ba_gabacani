@@ -24,9 +24,25 @@ padding: .5 vw;
    margin: 1px;
    font-weight:700;
 }
+.links a:hover{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size:medium;
+    border: 1px solid black;
+    background-color:goldenrod;
+    transition:0.4s;
+    opacity:1;
+   margin: 1px;
+   font-weight:700;
 
+}
 .banner{
     padding:10vh;
+    background-image: url(Images/tren2.jpg);
+    width: 200vh; 
+    height: 35vw;
+    background-position: center;
+    background-size: cover;
 }
 .bold{
     color: goldenrod;
@@ -35,6 +51,8 @@ padding: .5 vw;
 .banner h1,p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
+    color: red;
+
 }
 .banner p{
     margin-bottom: 1vw;
@@ -50,8 +68,22 @@ padding: .5 vw;
     font-weight:700;
    margin: 1px;
    padding: 2px;
+   color: black;
      
 }
+.banner a:hover{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size:medium;
+    border: 1px solid black;
+    background-color:goldenrod;
+    transition:0.4s;
+    opacity:1;
+   margin: 1px;
+   font-weight:700;
+
+}
+
 .footer{
     position: absolute;
     width: 98vw;
@@ -68,10 +100,29 @@ padding: .5 vw;
     font-weight:700;
 }
 .pic{
+    margin-top: 100px;
     text-align: center;
     display: inline-block;
-    background: gold;
     width: 25vw;
     height: 25vh;
+    align-items: center;
 }
-.row{text-align:center;}
+.row{text-align:center;
+    
+}
+.row h1{
+    font-size: xx-large;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    color: goldenrod;
+}
+.gallerybanner{
+    background-image: url(Images/wide.jpg);
+    width: 205vh; 
+    height: 45vw;
+    background-position: center;
+    background-size: cover;
+}
+.bold2{
+    color: goldenrod;
+}
